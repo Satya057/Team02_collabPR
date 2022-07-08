@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        #container{
+            height: 550px;
+            width: 100%;
+            background-color: rgb(107, 107, 243);
+            padding: 20px;
+            background-image: linear-gradient(to right,#4786d1,#7d54b6);
+            
+        }
+        #container>div{
+            height: 90%;
+            width: 25%;
+            background-color: white;
+            margin: auto;
+            border-radius: 10px;
+           
+        }
+        h1{
+            
+            text-align: center;
+            padding: 60px;
+            padding-bottom: 45px;
+        }
+        input{
+            width: 79%;
+            height: 30px;
+            border: 0px;
+            border-bottom: 2px solid rgb(173, 170, 170);
+            margin-bottom: 20px;
+            text-align: left;
+
+        }
+        .btn{
+            height: 40px;
+            width: 81%;
+            border-radius: -1%;
+            border: 0px;
+            background: violet;
+            color: white;
+            text-align: center;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            background-image: linear-gradient(to right,#4786d1,#7d54b6);
+        }
+        .colb{
+            color: blue;
+        }
+
+    </style>
+</head>  
+<body>
+    <div id="container">
+        <div>
+            <h1>Login</h1>
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Password" >
+            <input  class="btn" type="submit" value="Login" >
+            <br>
+            <span>Forgot</span><span class="colb" >Password?</span>
+            <br>
+            <br>
+            <span>Don't have an account?</span><span class="colb" >Sing up</span>
+        </div>
+    </div>
+</body>
